@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Slideshow</title>
+
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<div class="slideshow">
+			<div class="slideshow__slides">
+				<figure class="slideshow__slide slideshow__slide--visible">
+					<img class="slideshow__img" src="./assets/1.jpg" alt="">
+					<figcaption class="slideshow__caption">Mountains i Switzerland</figcaption>
+				</figure>
+				
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/2.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/3.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/4.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/5.jpg" alt="">
+					<figcaption class="slideshow__caption">Lonely cablecar over the mountains</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/6.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/7.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+			</div>
+
+			<div class="slideshow__controls">
+				<button class="slideshow__control-button" data-direction="previous">Previous</button>
+				<button class="slideshow__control-button" data-direction="next">Next</button>
+			</div>
+			
+			<div class="slideshow__dots">
+				<button class="slideshow__dot" data-index="0"></button>
+				<button class="slideshow__dot" data-index="1"></button>
+				<button class="slideshow__dot" data-index="2"></button>
+				<button class="slideshow__dot" data-index="3"></button>
+				<button class="slideshow__dot" data-index="4"></button>
+				<button class="slideshow__dot" data-index="5"></button>
+				<button class="slideshow__dot" data-index="6"></button>
+			</div>
+
+			<div class="slideshow__counter">
+				1 of 7
+			</div>
+		</div>
+		
+	
+		
+		<script src="./js/script.js"></script>
+	</body>
+</html>
